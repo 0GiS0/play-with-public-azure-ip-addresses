@@ -9,6 +9,8 @@ ENV TENANT=""
 ENV DLS_ACCOUNT_NAME=""
 ENV RESOURCE_GROUP=""
 
+#The service you want to allow
+ENV SERVICE_NAME="PowerBI"
 
 WORKDIR /app
 
